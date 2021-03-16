@@ -2,6 +2,8 @@ import React from "react";
 //@ts-ignore
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import "./styles/screen.scss";
+
 import Login from "./screens/Login";
 import NotFound from "./screens/NotFound";
 
