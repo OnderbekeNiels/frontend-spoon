@@ -1,8 +1,8 @@
-html{
-    background: $light;
+html {
+  background: $light;
 }
 
-body{
-    font: $base-font-size/$base-line-height $font-stack-alpha;
-    color: $dark;
+body {
+  font: #{ $base-font-size }/#{ $base-line-height } $font-stack-alpha;
+  color: $dark;
 }

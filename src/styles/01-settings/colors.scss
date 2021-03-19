@@ -1,3 +1,30 @@
+//#F9690E
 $theme-color: #f9690e;
+$theme-color-hue: hue($theme-color);
+
+$color-neutral: hsl(hue($theme-color), 5, 50) !default;
+
 $dark: #4e4e4e;
-$light: #fff;
+$light: #ffffff;
+
+$palettes: (
+	color-neutral: (
+		100: hsl(hue($color-neutral), saturation($color-neutral), 100),
+		250: hsl(hue($color-neutral), saturation($color-neutral), 97.5),
+		300: hsl(hue($color-neutral), saturation($color-neutral), 95),
+		350: hsl(hue($color-neutral), saturation($color-neutral), 90),
+		400: hsl(hue($color-neutral), saturation($color-neutral), 80),
+		450: hsl(hue($color-neutral), saturation($color-neutral), 65),
+		500: $color-neutral,
+		550: hsl(hue($color-neutral), saturation($color-neutral), 40),
+		600: hsl(hue($color-neutral), saturation($color-neutral), 30),
+		700: hsl(hue($color-neutral), saturation($color-neutral), 15),
+		800: hsl(hue($color-neutral), saturation($color-neutral), 10),
+		900: hsl(hue($color-neutral), saturation($color-neutral), 5),
+	),
+	color-theme: (
+		100: hsl($theme-color-hue, saturation($theme-color), 100),
+		500: hsl($theme-color-hue, saturation($theme-color), 50),
+		900: hsl($theme-color-hue, saturation($theme-color), 5),
+	),
+);
