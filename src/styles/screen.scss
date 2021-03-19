@@ -1,0 +1,20 @@
+// Q1? Wat geldt voor onze hele website?
+// Dat gaan we hier importen en gebruiken in onze App.tsx (globale styles).
+@import './01-settings/colors.scss';
+@import './01-settings/global.scss';
+@import './01-settings/typography.scss';
+
+@import './02-tools/mixins.scss';
+
+@import './03-generic/reset.scss';
+
+@import './04-elements/page.scss';
+
+// Q2? Hoe gaan we herbruikbare CSS afhandelen?
+// 05 Objects
+// 06 Components
+// -> react components van maken
+
+// TODO: utilities
+
+@import './07-utilities/colors';
